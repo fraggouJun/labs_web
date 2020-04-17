@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>С++ Приклад програми</title>
+    <link rel="stylesheet" href="../css/block.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>С++</h1>
+</header>
+<main id="main">
+    <p class="from">Матеріал з <a class="from_1" href="https://uk.wikipedia.org/wiki/C%2B%2B">Вікіпедії</a> — вільної енциклопедії.</p>
+    <nav class="widget">
+        <div class="widget-list" id="menu">
+            <a  href="#" class="icon">&#9776;</a>
+            <a href="block.html">Головна</a>
+            <a href="features.html">Особливості</a>
+            <a href="example.html">Приклад програми</a>
+            <a href="chronology.html">Хронологія розвитку</a>
+            <a href="advantages.html">Переваги та недоліки</a>
+        </div>
+    </nav>
+    <section class="right">
+        <h2 id="t1">Скорочена довідка</h2>
+        <div class="line"></div>
+        <p><img src="../image/logo.png" alt="Логотип" class="logo"></p>
+        <div class="content">
+            <p class="content_">C++ (Сі-плюс-плюс) — мова програмування високого[1][2] рівня з підтримкою кількох парадигм програмування: об'єктно-орієнтованої, узагальненої та процедурної. Розроблена 		Б'ярном Страуструпом (англ. Bjarne Stroustrup) в AT&T Bell Laboratories (Мюррей-Хілл, Нью-Джерсі) 1979 року та початково отримала назву «Сі з класами». Згодом Страуструп перейменував мову на 		C++ у 1983 р. Базується на мові С. Вперше описана стандартом ISO/IEC 14882:1998, найбільш актуальним же є стандарт ISO/IEC 14882:2014.
+                У 1990-х роках С++ стала однією з найуживаніших мов програмування загального призначення. Мову використовують для системного програмування, розробки програмного забезпечення, написання 		драйверів, потужних серверних та клієнтських програм, а також для розробки розважальних програм, наприклад, відеоігор. С++ суттєво вплинула на інші популярні сьогодні мови програмування: С# 		та Java.</p>
+        </div>
+    </section>
+    <section class="left">
+        <h2 id="t3">Приклад програми</h2>
+        <div class="line"></div>
+        <div class="example">
+            <p>Приклад програми «Hello, world!»</p>
+            <p>Нижче наведено приклад простої програми на С++, яка виводить на стандартний потік виводу рядок Hello, world!.</p>
+            <code>
+				<pre>
+				#include
+
+				using namespace std;
+
+				int main() {
+					cout << "Hello, world!" << endl;
+					return 0;
+				  }
+				</pre>
+            </code>
+            <p>Приклад програми зі змінною</p>
+            <p>Після запуску програми на екрані з'явиться повідомлення How old are you?, а курсор буде розміщений в наступному рядку. Там потрібно ввести цілочислове значення та натиснути клавішу Enter. Приклад: вводимо число 25, тоді з'явиться повідомлення You are 25 years old.</p>
+            <code>
+				<pre>
+				#include
+
+				using namespace std;
+
+				int main() {
+					int age; // Змінна для запису віку
+					cout << "How old are You?\n"; // Скільки вам років?
+					cin >> age; // Зчитування віку
+					cout << "You are " << age << " years old\n"; // Результат
+					return 0;
+				}
+				</pre>
+            </code>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>
+        <a href="index.html">Ivan Mysyk</a>
+    </p>
+</footer>
+</body>
+</html>
